@@ -1,0 +1,21 @@
+/* Error: Undefined variable.
+ *    ,
+ * 17 |     } @else if map-has-key($type, $font-size) { // else try and find the value in our type map
+ *    |                            ^^^^^
+ *    '
+ *   node_modules/@justeat/f-utils/src/scss/functions/_units.scss 17:28    line-height()
+ *   node_modules/@justeat/fozzie/src/scss/settings/_variables.scss 59:31  @forward
+ *   node_modules/@justeat/fozzie/src/scss/_dependencies.scss 3:1          @forward
+ *   node_modules/@justeat/fozzie/src/scss/fozzie.scss 18:1                @use
+ *   sass/styles.scss 2:1                                                  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 17 \2502      } @else if map-has-key($type, $font-size) { // else try and find the value in our type map\a    \2502                             ^^^^^\a    \2575 \a   node_modules/@justeat/f-utils/src/scss/functions/_units.scss 17:28    line-height()\a   node_modules/@justeat/fozzie/src/scss/settings/_variables.scss 59:31  @forward\a   node_modules/@justeat/fozzie/src/scss/_dependencies.scss 3:1          @forward\a   node_modules/@justeat/fozzie/src/scss/fozzie.scss 18:1                @use\a   sass/styles.scss 2:1                                                  root stylesheet";
+}

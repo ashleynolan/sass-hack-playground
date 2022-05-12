@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Output of 'npm pack'
+*.tgz
+
+# Dependency directories
+node_modules
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE or text editor files #
+.idea
+.vscode
+
+# General #
+dist
+build
+esm
+coverage
+.next
+.out
+results
+.nyc_output
+*.tsbuildinfo
+storybook-static
+variations
+stats.html

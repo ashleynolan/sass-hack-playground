@@ -1,0 +1,10 @@
+
+@use "dependencies" as test;
+
+.test {
+    font-size: test.$font-size;
+    // font-weight: f.$btn-default-weight;
+}
+
+
+
